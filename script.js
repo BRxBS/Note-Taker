@@ -26,11 +26,14 @@
                 selectedRowIndex=this.rowIndex;
             
                 document.getElementById("noteInput").value=this.cells[0].innerHTML;}
+                document.getElementById("noteInput").value= "";
             }
         }
         function ButDelete(){
   
             newTable.deleteRow(selectedRowIndex);
+            document.getElementById("noteInput").value= "";
+            
     }
 
   

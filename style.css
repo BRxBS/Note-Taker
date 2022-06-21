@@ -29,7 +29,7 @@ p{
 
 }
 .add-note{
-    margin-top: 5%;
+    margin-top: 1%;
     margin-left:40%;
     cursor: pointer;
     font: 20px sans-serif;
@@ -61,7 +61,7 @@ p{
     border: none;
     color: white;
     padding: 10px 14px;
-    margin-left: 5%;
+    margin-left: 2%;
     cursor: pointer;
     font: 20px sans-serif;
 }
@@ -89,3 +89,5 @@ td{
 td:hover{
    background-color: #D6EEEE;
 }
+
+  
